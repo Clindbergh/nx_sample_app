@@ -47,7 +47,7 @@
       "defaultConfiguration": "production"
     },
     "serve": {
-      "executor": "@angular-devkit/build-angular:dev-server",
+      "executor": "@nx/web:file-server",
       "configurations": {
         "production": {
           "browserTarget": "myngapp:build:production"
